@@ -1,0 +1,106 @@
+/* IMPORT GOOGLE FONT */
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap");
+
+/* BASE STYLE */
+
+:root {
+  --primary: #0d0d0d;
+  --secondary: #595959;
+  --tertiary: #a6a6a6;
+  --quaternary: #f2f2f2;
+  --serif: Cinzel, Garamond, Georgia, serif;
+  --sans-serif: Poppins, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+  color: var(--tertiary);
+  font-family: var(--sans-serif);
+  font-size: 0.9rem;
+}
+
+/* CLASSES */
+
+.container {
+  box-sizing: border-box;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 5rem 1rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 1rem;
+}
+
+.profile {
+  box-sizing: border-box;
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 6.5rem;
+  overflow: hidden;
+}
+
+.title-md {
+  color: var(--quaternary);
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title-sm {
+  color: var(--quaternary);
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  color: var(--quaternary);
+  margin-bottom: 2rem;
+}
+
+.description {
+  margin-bottom: 0.5rem;
+}
+
+.description-dark {
+  color: var(--secondary);
+}
+
+.link {
+  color: var(--quaternary);
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link-dark {
+  color: var(--secondary);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link-dark:hover {
+  text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 500px) {
+  .body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.5rem;
+  }
+}
