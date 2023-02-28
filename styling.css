@@ -1,16 +1,14 @@
 /* IMPORT GOOGLE FONT */
-
-@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Michroma&display=swap");
 
 /* BASE STYLE */
-
 :root {
   --primary: #0d0d0d;
   --secondary: #595959;
   --tertiary: #a6a6a6;
   --quaternary: #f2f2f2;
-  --serif: Cinzel, Garamond, Georgia, serif;
-  --sans-serif: Poppins, "Segoe UI", Helvetica, Arial, sans-serif;
+  --primary-font: "Major Mono Display", "Segoe UI", Helvetica, Arial, sans-serif;
+  --secondary-font: Michroma, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -18,17 +16,30 @@ body {
   padding: 0;
   background-color: var(--primary);
   color: var(--tertiary);
-  font-family: var(--sans-serif);
+  font-family: var(--secondary-font);
   font-size: 0.9rem;
 }
 
-/* CLASSES */
+/* NOISE BACKGROUND */
+.noise::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  opacity: 0.05;
+  z-index: 1000;
+  pointer-events: none;
+  background: url(/public/noise.gif);
+}
 
+/* UTILITIES*/
 .container {
   box-sizing: border-box;
   max-width: 500px;
   margin: 0 auto;
-  padding: 5rem 1rem;
+  padding: 6rem 1rem;
 }
 
 .section {
@@ -51,18 +62,20 @@ body {
 
 .title-md {
   color: var(--quaternary);
-  font-family: var(--serif);
+  font-family: var(--primary-font);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 .title-sm {
   color: var(--quaternary);
+  font-family: var(--primary-font);
   margin-bottom: 0.5rem;
 }
 
 .section-title {
   color: var(--quaternary);
+  font-family: var(--primary-font);
   margin-bottom: 2rem;
 }
 
@@ -76,6 +89,7 @@ body {
 
 .link {
   color: var(--quaternary);
+  font-family: var(--primary-font);
   margin-bottom: 0.5rem;
   text-decoration: none;
   display: inline-block;
@@ -96,7 +110,6 @@ body {
 }
 
 /* MEDIA QUERIES */
-
 @media screen and (max-width: 500px) {
   .body {
     grid-template-columns: 1fr;
