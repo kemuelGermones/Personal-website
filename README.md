@@ -2,13 +2,13 @@
 
 This is a personal website that provides information about myself and my individual work samples
 
-### [Demo]
+### [Live Site]
 
 ![Portfolio](https://res.cloudinary.com/de9dxfdav/image/upload/v1677825154/Project%20Promotion/Screenshot_2023-03-03_143020_g9uktg.jpg)
 
 ### Description
 
-This is a personal website built with HTML and CSS that provides information about myself and my individual work samples
+Personal website built with HTML and CSS that provides information about myself and my individual work samples
 
 ### Requirements
 
