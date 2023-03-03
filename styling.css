@@ -3,10 +3,10 @@
 
 /* BASE STYLE */
 :root {
-  --primary: #0d0d0d;
-  --secondary: #595959;
-  --tertiary: #a6a6a6;
-  --quaternary: #f2f2f2;
+  --primary-color: #0d0d0d;
+  --secondary-color: #595959;
+  --tertiary-color: #a6a6a6;
+  --quaternary-color: #f2f2f2;
   --primary-font: "Major Mono Display", "Segoe UI", Helvetica, Arial, sans-serif;
   --secondary-font: Michroma, "Segoe UI", Helvetica, Arial, sans-serif;
 }
@@ -14,8 +14,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--primary);
-  color: var(--tertiary);
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
   font-family: var(--secondary-font);
   font-size: 0.9rem;
 }
@@ -42,10 +42,6 @@ body {
   padding: 6rem 1rem;
 }
 
-.section {
-  margin-bottom: 3rem;
-}
-
 .body {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -54,58 +50,48 @@ body {
 
 .profile {
   box-sizing: border-box;
-  width: 6.5rem;
-  height: 6.5rem;
-  border-radius: 6.5rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 6rem;
   overflow: hidden;
 }
 
 .title-md {
-  color: var(--quaternary);
+  color: var(--quaternary-color);
   font-family: var(--primary-font);
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .title-sm {
-  color: var(--quaternary);
+  color: var(--quaternary-color);
   font-family: var(--primary-font);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-.section-title {
-  color: var(--quaternary);
+.text-dark {
+  color: var(--secondary-color);
+}
+
+.title-sm-link {
+  color: var(--quaternary-color);
   font-family: var(--primary-font);
-  margin-bottom: 2rem;
-}
-
-.description {
-  margin-bottom: 0.5rem;
-}
-
-.description-dark {
-  color: var(--secondary);
-}
-
-.link {
-  color: var(--quaternary);
-  font-family: var(--primary-font);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   text-decoration: none;
   display: inline-block;
 }
 
-.link:hover {
+.title-sm-link:hover {
   text-decoration: underline;
 }
 
-.link-dark {
-  color: var(--secondary);
+.text-link-dark {
+  color: var(--secondary-color);
   text-decoration: none;
   display: inline-block;
 }
 
-.link-dark:hover {
+.text-link-dark:hover {
   text-decoration: underline;
 }
 
@@ -114,6 +100,6 @@ body {
   .body {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 }

@@ -1,6 +1,6 @@
-# Portfolio Website
+# Personal Website
 
-This is a portfolio website to showcase myself and my projects.
+This is a personal website that provides information about myself and my individual work samples
 
 ### [Demo]
 
@@ -8,7 +8,7 @@ This is a portfolio website to showcase myself and my projects.
 
 ### Description
 
-This is a porfolio website built with HTML, CSS and JavaScript.
+This is a personal website built with HTML and CSS that provides information about myself and my individual work samples
 
 ### Requirements
 
@@ -27,4 +27,3 @@ $ git clone git@github.com:kemuelGermones/Redesigned-portfolio.git
 ```
 
 Go into the directory, open live server in VS code and enjoy!
-
