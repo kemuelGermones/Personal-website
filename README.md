@@ -23,7 +23,7 @@ Navigate to the URL provided above to visit the live demo. Alternatively, if you
 Clone it
 
 ```
-$ git clone git@github.com:kemuelGermones/Redesigned-portfolio.git
+$ git clone git@github.com:kemuelGermones/Personal-website.git
 ```
 
 Go into the directory, open live server in VS code and enjoy!
