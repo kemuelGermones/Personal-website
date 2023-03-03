@@ -4,7 +4,7 @@ This is a personal website that provides information about myself and my individ
 
 ### [Demo]
 
-![Portfolio](https://res.cloudinary.com/de9dxfdav/image/upload/v1677567016/Project%20Promotion/Screenshot_2023-02-28_144824_vwgugl.jpg)
+![Portfolio](https://res.cloudinary.com/de9dxfdav/image/upload/v1677825154/Project%20Promotion/Screenshot_2023-03-03_143020_g9uktg.jpg)
 
 ### Description
 
