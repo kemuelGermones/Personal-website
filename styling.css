@@ -31,7 +31,7 @@ body {
   opacity: 0.05;
   z-index: 1000;
   pointer-events: none;
-  background: url(/public/noise.gif);
+  background: url(/assets/noise.gif);
 }
 
 /* UTILITIES*/
