@@ -8,7 +8,7 @@ This is a personal website that provides information about myself and my individ
 
 ### Description
 
-Personal website built with HTML and CSS that provides information about myself and my individual work samples
+A website built with HTML and CSS that provides information about myself and my individual work samples
 
 ### Requirements
 
