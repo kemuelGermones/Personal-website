@@ -4,7 +4,7 @@ This personal website serves as a platform to showcase my individual work sample
 
 ### [Live Site](https://kemuel-germones.vercel.app)
 
-![Portfolio](https://res.cloudinary.com/de9dxfdav/image/upload/v1677825154/Project%20Promotion/Screenshot_2023-03-03_143020_g9uktg.jpg)
+![Portfolio](https://res.cloudinary.com/de9dxfdav/image/upload/v1684574957/Project%20Promotion/Screenshot_from_2023-05-20_17-23-49_w8wrmg.png)
 
 ### Description
 
