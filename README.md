@@ -8,7 +8,7 @@ This personal website serves as a platform to showcase my individual work sample
 
 ### Description
 
-Created a personal portfolio website using HTML and CSS, showcasing information about myself and a collection of individual work samples. The website serves as a platform to present my skills, experience, and accomplishments in an engaging and professional manner.
+Created a personal portfolio website using HTML, CSS and JavaScript, showcasing information about myself and a collection of individual work samples. The website serves as a platform to present my skills, experience, and accomplishments in an engaging and professional manner.
 
 ### Requirements
 
