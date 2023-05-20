@@ -1,6 +1,6 @@
 # Personal Website
 
-This is a personal website that provides information about myself and my individual work samples
+This personal website serves as a platform to showcase my individual work samples and provide detailed information about myself.
 
 ### [Live Site](https://kemuel-germones.vercel.app)
 
@@ -8,7 +8,7 @@ This is a personal website that provides information about myself and my individ
 
 ### Description
 
-A website built with HTML and CSS that provides information about myself and my individual work samples
+Created a personal portfolio website using HTML and CSS, showcasing information about myself and a collection of individual work samples. The website serves as a platform to present my skills, experience, and accomplishments in an engaging and professional manner.
 
 ### Requirements
 
@@ -18,7 +18,7 @@ A website built with HTML and CSS that provides information about myself and my 
 
 ### Usage
 
-Navigate to the URL provided above to visit the live demo. Alternatively, if you want to host the web app locally on your computer, make sure to follow the instructions below.
+To access the live demo, please proceed to the provided URL. Alternatively, if you prefer to host the web application locally on your computer, follow the instructions outlined below.
 
 Clone it
 
