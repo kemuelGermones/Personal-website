@@ -1,7 +1,5 @@
-/* IMPORT GOOGLE FONT */
 @import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Michroma&display=swap");
 
-/* BASE STYLE */
 :root {
   --primary-color: #0d0d0d;
   --secondary-color: #595959;
@@ -20,7 +18,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* NOISE BACKGROUND */
 .noise::before {
   position: fixed;
   top: 0;
@@ -34,7 +31,6 @@ body {
   background: url(/assets/noise.gif);
 }
 
-/* UTILITIES*/
 .container {
   box-sizing: border-box;
   max-width: 500px;
@@ -95,7 +91,6 @@ body {
   text-decoration: underline;
 }
 
-/* MEDIA QUERIES */
 @media screen and (max-width: 500px) {
   .body {
     grid-template-columns: 1fr;
