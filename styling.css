@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
   --primary-color: #0d0d0d;
   --secondary-color: #595959;
   --tertiary-color: #a6a6a6;
   --quaternary-color: #f2f2f2;
-  --primary-font: "Major Mono Display", "Segoe UI", Helvetica, Arial, sans-serif;
-  --secondary-font: Michroma, "Segoe UI", Helvetica, Arial, sans-serif;
+  --primary-font: Poppins, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -14,7 +13,7 @@ body {
   padding: 0;
   background-color: var(--primary-color);
   color: var(--tertiary-color);
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
   font-size: 0.9rem;
 }
 
@@ -54,14 +53,12 @@ body {
 
 .title-md {
   color: var(--quaternary-color);
-  font-family: var(--primary-font);
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
 
 .title-sm {
   color: var(--quaternary-color);
-  font-family: var(--primary-font);
   margin-bottom: 1rem;
 }
 
@@ -71,7 +68,6 @@ body {
 
 .title-sm-link {
   color: var(--quaternary-color);
-  font-family: var(--primary-font);
   margin-bottom: 1rem;
   text-decoration: none;
   display: inline-block;
