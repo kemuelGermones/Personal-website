@@ -2,28 +2,41 @@
 
 This personal website serves as a platform to showcase my individual work samples and provide detailed information about myself.
 
-### [Live Site](https://kemuel-germones.vercel.app)
+### [View Demo](https://kemuel-germones.vercel.app/)
 
-![Portfolio](https://res.cloudinary.com/de9dxfdav/image/upload/v1684574957/Project%20Promotion/Screenshot_from_2023-05-20_17-23-49_w8wrmg.png)
+## About The Project
 
-### Description
+![Personal Website](https://res.cloudinary.com/de9dxfdav/image/upload/v1684574957/Project%20Promotion/Screenshot_from_2023-05-20_17-23-49_w8wrmg.png)
 
-Created a personal portfolio website using HTML, CSS and JavaScript, showcasing information about myself and a collection of individual work samples. The website serves as a platform to present my skills, experience, and accomplishments in an engaging and professional manner.
+My personal website is a versatile digital tool that not only showcases my work but also offers a holistic view of my identity and expertise. It serves as a gateway for meaningful connections, enabling me to connect with a diverse range of individuals, from potential clients and employers to like-minded professionals and enthusiasts in my field.
 
-### Requirements
+### Built With
 
-- HTML
-- CSS
-- JavaScript
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-### Usage
+## Getting Started
 
-To access the live demo, please proceed to the provided URL. Alternatively, if you prefer to host the web application locally on your computer, follow the instructions outlined below.
+To access the live demo, please proceed to the provided URL above. Alternatively, if you prefer to host the web application locally on your computer, please follow the instructions outlined below.
 
-Clone it
+### Prerequisites
+
+In order to host the web application locally on your computer you must install Visual Studio Code.
+
+### Installation
+
+Below are the instructions of how you can host the web application locally on your computer.
+
+1. Clone the project repository on your machine by running the command below on your terminal.
 
 ```
-$ git clone git@github.com:kemuelGermones/Personal-website.git
+git clone git@github.com:kemuelGermones/Personal-website.git
 ```
 
-Go into the directory, open live server in VS code and enjoy!
+2. Open Visual Studio Code, navigate to the project directory and open `index.html`.
+3. Click live server and enjoy!
+
+## Contact
+
+Email - [kemuelgermones@gmail.com](kemuelgermones@gmail.com)
