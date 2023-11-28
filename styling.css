@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap");
 
 :root {
   --primary-color: #0d0d0d;
   --secondary-color: #595959;
   --tertiary-color: #a6a6a6;
   --quaternary-color: #f2f2f2;
+  --quinary-color: #dfbfbf;
   --primary-font: Poppins, Helvetica, Arial, sans-serif;
+  --secondary-font: Oswald, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -40,7 +42,15 @@ body {
 .container--small {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 1rem;
+}
+
+.brand {
+  color: var(--quinary-color);
+  font-family: var(--secondary-font);
+  font-style: italic;
+  font-size: 2rem;
 }
 
 .content {
@@ -55,11 +65,6 @@ body {
   border-radius: 100%;
 }
 
-.content__header--large {
-  color: var(--quaternary-color);
-  font-size: 1.5rem;
-}
-
 .content__header {
   color: var(--quaternary-color);
 }
@@ -70,11 +75,75 @@ body {
 
 .link {
   text-decoration: none;
-  display: inline-block;
 }
 
 .link:hover {
   text-decoration: underline;
+}
+
+.disrupt {
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+.disrupt:before,
+.disrupt:after {
+  content: attr(text);
+  position: absolute;
+  left: 0;
+}
+
+.disrupt:before {
+  animation: glitch__top 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitch__top {
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+
+.disrupt:after {
+  animation: glitch__bottom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitch__bottom {
+  2%,
+  64% {
+    transform: translate(-2px, 0);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
+  }
 }
 
 @media screen and (max-width: 500px) {
