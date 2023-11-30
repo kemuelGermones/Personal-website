@@ -1,56 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap");
 
 :root {
-  --primary-color: #0d0d0d;
-  --secondary-color: #595959;
-  --tertiary-color: #a6a6a6;
-  --quaternary-color: #f2f2f2;
-  --quinary-color: #dfbfbf;
-  --primary-font: Poppins, Helvetica, Arial, sans-serif;
-  --secondary-font: Oswald, Helvetica, Arial, sans-serif;
+  --primary-color: #000000;
+  --secondary-color: #0d0d0d;
+  --tertiary-color: #595959;
+  --quaternary-color: #a6a6a6;
+  --quinary-color: #f2f2f2;
+  --senary-color: #dfbfbf;
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: var(--primary-color);
-  color: var(--tertiary-color);
-  font-family: var(--primary-font);
+  color: var(--quaternary-color);
+  font-family: Poppins, Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
 }
 
-.noise::before {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  content: "";
-  opacity: 0.05;
-  pointer-events: none;
-  background: url(/assets/noise.gif);
+main {
+  box-sizing: border-box;
+  max-width: 31.25rem;
+  margin: 0 auto;
+  padding: 6.5rem 1rem;
 }
 
 .container--large {
-  box-sizing: border-box;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 6.5rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
 
+.container--medium {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .container--small {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 1rem;
 }
 
 .brand {
-  color: var(--quinary-color);
-  font-family: var(--secondary-font);
+  color: var(--senary-color);
+  font-family: Oswald, Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
   font-style: italic;
-  font-size: 2rem;
 }
 
 .content {
@@ -59,26 +56,40 @@ body {
   gap: 1rem;
 }
 
-.content__image {
-  width: 110px;
-  height: 110px;
-  border-radius: 100%;
+.avatar {
+  width: 7.563rem;
+  height: 7.563rem;
+  border-radius: 7.563rem;
 }
 
-.content__header {
-  color: var(--quaternary-color);
+.header {
+  color: var(--quinary-color);
 }
 
-.content__header--dark {
-  color: var(--secondary-color);
-}
-
-.link {
+.header a {
+  color: var(--quinary-color);
   text-decoration: none;
 }
 
-.link:hover {
+.header a:hover {
   text-decoration: underline;
+}
+
+.header--dark {
+  color: var(--tertiary-color);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tags div {
+  background-color: var(--secondary-color);
+  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.8rem;
 }
 
 .disrupt {
@@ -103,6 +114,7 @@ body {
 .disrupt:after {
   content: attr(text);
   position: absolute;
+  top: 0;
   left: 0;
 }
 
