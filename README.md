@@ -2,11 +2,11 @@
 
 This personal website serves as a platform to showcase my individual work samples and provide detailed information about myself.
 
-### [View Demo](https://kemuel-germones.vercel.app/)
+### [Live Demo](https://kemuel-germones.vercel.app/)
 
 ## About The Project
 
-![Personal Website](https://res.cloudinary.com/de9dxfdav/image/upload/v1684574957/Project%20Promotion/Screenshot_from_2023-05-20_17-23-49_w8wrmg.png)
+![Personal Website](https://res.cloudinary.com/de9dxfdav/image/upload/v1701330032/Project%20Promotion/Screenshot_from_2023-11-30_15-32-11_wjveol.png)
 
 My personal website is a versatile digital tool that not only showcases my work but also offers a holistic view of my identity and expertise. It serves as a gateway for meaningful connections, enabling me to connect with a diverse range of individuals, from potential clients and employers to like-minded professionals and enthusiasts in my field.
 
@@ -35,7 +35,7 @@ git clone git@github.com:kemuelGermones/Personal-website.git
 ```
 
 2. Open Visual Studio Code, navigate to the project directory and open `index.html`.
-3. Click live server and enjoy!
+3. Click "Go Live" and enjoy!
 
 ## Contact
 
